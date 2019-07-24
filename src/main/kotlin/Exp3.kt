@@ -6,7 +6,7 @@ import kotlinx.coroutines.*
  */
 /**
  * GlobalScope.launch内部的子协程抛异常，其他的子协程会被取消，它本身不能被取消
- * 取消是一个双向机制，在协程的整个层次结构之间传播
+ *
  */
 fun main() = runBlocking {
     //sampleStart
